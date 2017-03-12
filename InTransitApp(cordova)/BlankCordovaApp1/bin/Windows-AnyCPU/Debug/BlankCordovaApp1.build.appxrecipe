@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>H04X-LAB</Machine>
+    <WindowsUser>Admin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp668ca8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\france-flag-round-medium.png">
+      <PackagePath>www\images\france-flag-round-medium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\germany-flag-round-icon-128.png">
+      <PackagePath>www\images\germany-flag-round-icon-128.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\luxembourg-flag-round-medium.png">
+      <PackagePath>www\images\luxembourg-flag-round-medium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\united-kingdom-flag-round-medium.png">
+      <PackagePath>www\images\united-kingdom-flag-round-medium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\1313.css">
+      <PackagePath>www\1313 Fahrtplanner_files\1313.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\bootstrap.min.css">
+      <PackagePath>www\1313 Fahrtplanner_files\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\jquery-ui-1.10.3.custom.css">
+      <PackagePath>www\1313 Fahrtplanner_files\jquery-ui-1.10.3.custom.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\jquery-ui-1.10.3.theme.css">
+      <PackagePath>www\1313 Fahrtplanner_files\jquery-ui-1.10.3.theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\mfb.css">
+      <PackagePath>www\1313 Fahrtplanner_files\mfb.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\form.css">
+      <PackagePath>www\form.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\bootstrap.min.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\bootstrap.min.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\config.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\config.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\Form.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\Form.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\jquery-scrollto.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\jquery-scrollto.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\jquery-ui-1.10.4.custom.min.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\jquery-ui-1.10.4.custom.min.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\jquery.min.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\jquery.min.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\lu.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\lu.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\lu2.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\lu2.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\modernizr.custom.05247.js.download">
+      <PackagePath>www\1313 Fahrtplanner_files\modernizr.custom.05247.js.download</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\1313 Fahrtplanner_files\stops.txt">
+      <PackagePath>www\1313 Fahrtplanner_files\stops.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\add.html">
+      <PackagePath>www\add.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\mitm.html">
+      <PackagePath>www\mitm.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\result.html">
+      <PackagePath>www\result.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\settings.html">
+      <PackagePath>www\settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\Documents\Visual Studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

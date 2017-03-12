@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>H04X-LAB</Machine>
+    <WindowsUser>Admin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp668ca8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>3C8B5CE2DD0FB05085E43280467B0DEC369005BB93227C90E7CBE16DC6AA588E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp668ca8_1.0.0.0_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp668ca8_h35559jr9hy9m!io.cordova.myapp668ca8</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp668ca8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:14.891</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2017-03-11T12:30:13.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2017-03-11T12:30:13.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:13.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+      <Modified>2017-03-11T12:30:13.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2017-03-11T12:30:14.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2017-03-11T12:30:14.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-03-11T12:30:13.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-03-11T12:30:14.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2017-03-11T12:30:13.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2017-03-11T12:30:13.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2017-03-11T12:30:13.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-03-11T12:30:13.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2017-03-11T12:30:14.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-03-11T12:30:14.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-03-11T12:30:13.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\admin\documents\visual studio 2015\Projects\BlankCordovaApp1\BlankCordovaApp1\platforms\windows\build\windows\debug\x64\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-03-11T12:30:14.711</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

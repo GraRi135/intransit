@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./1313 Fahrtplanner_files/1313.css">
+    <link rel="stylesheet" href="./1313 Fahrtplanner_files/mfb.css">
+    <script type="text/javascript" src="./1313 Fahrtplanner_files/modernizr.custom.05247.js.download"></script>
+    <link rel="stylesheet" href="./1313 Fahrtplanner_files/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" href="./1313 Fahrtplanner_files/jquery-ui-1.10.3.theme.css">
+    <link rel="stylesheet" href="./1313 Fahrtplanner_files/bootstrap.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover, .offcanvas a:focus {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }
+    </style>
+</head>
+
+<body>
+    <body>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Plan Travel</a>
+            <a href="mitm.html">MeetITM</a>
+            <a href="#">Extra Feature 2</a>
+            <a href="settings.html">Anstellungen</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+        </script>
+
+    </body>
+
+    <ul id="menu" class="mfb-component--bl mfb-slidein-spring" data-mfb-toggle="hover">
+        <li class="mfb-component__wrap">
+            <a href="#" data-mfb-label="Lëtzebuergesch" class="mfb-component__button--main">
+                <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+                <i class="mfb-component__main-icon--active ion-close-round"></i>
+                <img src="images/luxembourg-flag-round-medium.png" height="56" width="56">
+            </a>
+            <ul class="mfb-component__list">
+                <li>
+                    <a href="fr.html" data-mfb-label="Deutsch" class="mfb-component__button--child">
+                        <i class="mfb-component__child-icon ion-social-github"></i>
+                        <img src="images/germany-flag-round-icon-128.png" height="56" width="56">
+                    </a>
+                </li>
+                <li>
+                    <a href="en.html" data-mfb-label="English" class="mfb-component__button--child">
+                        <i class="mfb-component__child-icon ion-social-github"></i>
+                        <img src="images/united-kingdom-flag-round-medium.png" height="56" width="56">
+                    </a>
+                </li>
+                <li>
+                    <a href="fr.html" data-mfb-label="Francais" class="mfb-component__button--child">
+                        <i class="mfb-component__child-icon ion-social-github"></i>
+                        <img src="images/france-flag-round-medium.png" height="56" width="56">
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
