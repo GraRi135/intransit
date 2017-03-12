@@ -1,0 +1,38 @@
+var Locale = {}
+
+Locale.dateFormat = 'dd-mm-yy';
+Locale.timeFormat = 'hh:mm';
+Locale.dateAriaLabel = 'Datum, benotzt "CTRL" an d\'Feil-tasten fir ze navigéieren, "Enter" fir ze validéieren';
+Locale.loading = "Lued...";
+Locale.edit = "Trajet änneren";
+Locale.plan = "Trajet plangen";
+Locale.geocoderInput = "Gare, Bushaltestell oder Adress";
+Locale.startpointEmpty = "Kee Start ausgewielt";
+Locale.noStartpointSelected = "Kee gültege Start ausgewielt";
+Locale.destinationEmpty = "Keen Ziel ausgewielt";
+Locale.noDestinationSelected = "Keen gültegt Ziel gewielt";
+Locale.noValidDate = "Ee gültegen Datum afügen";
+Locale.noValidTime = "Eng gülteg Zeit anfügen";
+Locale.dateTooEarly = function ( minDate8601 ) { return "Dir kënnt nëmmen Trajeten plangen ab dem "+minDate8601.split('-').reverse().join('-'); }
+Locale.dateTooLate = function ( maxDate8601 ) { return "Dir kënnt nëmmen Trajeten plangen bis dem  "+maxDate8601.split('-').reverse().join('-'); }
+Locale.from = "Vun";
+Locale.via = "Via";
+Locale.to = "Bis";
+Locale.date = "Datum";
+Locale.time = "Zäit";
+Locale.months = ['Januar','Februar','Mäerz','Abrëll','Mee','Juni','Juli','August','September','Oktober','November','Dezember'];
+Locale.days = ['Sonndeg','Méindeg','Dënschdeg','Mëttwoch','Donneschdeg','Freideg','Samschdeg'];
+Locale.daysMin = ['So','Mé','Dë','Më','Do','Fr','Sa'];
+Locale.earlier = 'Méi Frei';
+Locale.later = 'Méi Spéit';
+Locale.noAdviceFound = 'Et goufe keng Fahrten fir är Sich fonnt';
+Locale.walk = 'Trëppelen';
+Locale.platformrail = 'Quai';
+Locale.platform = 'Bushaltestell';
+Locale.amountTransfers = function ( transfers ) { if (transfers == 0) { return 'Direkt'; } else { return transfers+ ' mol ëmsteigen';} }
+Locale.autocompleteMessages = {
+    noResults: "Et goufen keng Resultater fonnt.",
+    results: function( amount ) {
+        return amount + ( amount > 1 ? " Resultater sinn " : " Resultat ass" ) + " fonnt ginn, benotzt d'erop an erof Tast fir iech se un ze kucken.";
+    }
+}

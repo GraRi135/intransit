@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- saved from url=(0203)https://planner.tfl.lu/#fromPlace=Gare%2C+Esch%2FAlzette&fromLatLng=49.49418%2C5.98544&toPlace=Av.+du+Rock'n'Roll%2C+Esch%2FAlzette&toLatLng=49.50057%2C5.94753&time=08%3A38&date=2017-03-13&arriveBy=false -->
+<html lang="lu" class=" js geolocation postmessage history localstorage sessionstorage applicationcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InTransit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script type="text/javascript" src="./end3_files/modernizr.custom.05247.js.download"></script>
+    <link rel="stylesheet" href="./end3_files/jquery-ui-1.10.3.custom.css">
+    <link rel="stylesheet" href="./end3_files/jquery-ui-1.10.3.theme.css">
+    <link rel="stylesheet" href="./end3_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./end3_files/1313.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="plannerpanel planner-options planner-summary" id="planner-options-panel">
+        <form role="form" class="planner-options-form validateDontSubmit" id="planner-options-form" aria-hidden="true" style="display: none;">
+          <div class="input-group input-group-lg planner-options-inputgroup-from" id="planner-options-inputgroup-from">
+            <label class="input-group-addon planner-options-input-addon required label-from" for="planner-options-from">Vun</label>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible">Gare, Esch/Alzette</span><input id="planner-options-from" type="text" title="Vun" aria-required="true" class="form-control ui-autocomplete-input" placeholder="Gare, Bushaltestell oder Adress" x-webkit-speech="x-webkit-speech" required="required" autocomplete="off" aria-invalid="false">
+            <input id="planner-options-from-latlng" type="hidden" value="49.49418,5.98544">
+          </div>
+          <div class="input-group input-group-lg hidden" aria-hidden="true" id="planner-options-inputgroup-via">
+            <label class="input-group-addon planner-options-input-addon label-via" for="planner-options-via">Via</label>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="planner-options-via" type="text" title="Via" aria-required="true" class="form-control ui-autocomplete-input" placeholder="Gare, Bushaltestell oder Adress" x-webkit-speech="x-webkit-speech" autocomplete="off">
+            <div id="planner-options-via-autocompletecontainer"></div>
+            <input id="planner-options-via-latlng" type="hidden">
+          </div>
+          <div class="input-group input-group-lg planner-options-inputgroup-dest" id="planner-options-inputgroup-dest">
+            <label class="input-group-addon planner-options-input-addon required label-dest" for="planner-options-dest">Bis</label>
+            <span role="status" aria-live="polite" class="ui-helper-hidden-accessible">Av. du Rock'n'Roll, Esch/Alzette</span><input id="planner-options-dest" type="text" title="Bis" aria-required="true" class="form-control ui-autocomplete-input" placeholder="Gare, Bushaltestell oder Adress" x-webkit-speech="x-webkit-speech" required="required" autocomplete="off" aria-invalid="false">
+            <input id="planner-options-dest-latlng" type="hidden" value="49.50057,5.94753">
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+              <div class="input-group input-group-lg planner-options-dateinput" id="planner-options-inputgroup-time">
+                <label class="input-group-addon planner-options-input-addon label-time" for="planner-options-time">Zäit</label>
+                <input id="planner-options-time" type="time" title="Tijd" aria-described-by="planner-options-timeformat" aria-required="true" class="form-control" required="required" aria-invalid="false">
+                <div class="input-group-addon planner-options-input-addon" id="planner-options-timeformat" aria-hidden="true" style="display: none;">hh:mm</div>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="input-group input-group-lg planner-options-dateinput" id="planner-options-inputgroup-date">
+                <label class="input-group-addon planner-options-input-addon label-date" for="planner-options-date">Datum</label>
+                <input id="planner-options-date" type="text" title="datum" aria-label="Datum, benotzt &quot;CTRL&quot; an d&#39;Feil-tasten fir ze navigéieren, &quot;Enter&quot; fir ze validéieren" aria-required="true" class="form-control hasDatepicker" required="required" aria-invalid="false">
+              </div>
+            </div>
+          </div>
+          <div id="planner-options-date-messages" class="accessibility-helper" aria-live="assertive" aria-atomic="true" aria-relevant="additions">11 Mäerz 2017</div>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <button class="btn-default btn-lg planner-options-submitbutton label-plan" id="planner-options-submit" type="submit" data-loading-text="Lued..." data-vivaldi-spatnav-clickable="1">Trajet plangen</button>
+            </div>
+          </div>
+        </form>
+        <div id="planner-options-desc-row" class="row" aria-hidden="false" style="display: block;">
+          <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9" id="planner-options-desc"><h4><b>Vun</b> Gare, Esch/Alzette<br><b>Bis</b> Av. du Rock'n'Roll, Esch/Alzette</h4><h5>Méindeg 13 Mäerz, 08:38</h5></div>
+          <div class="clearfix visible-xs"></div>
+          <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <button class="btn-default btn-lg hidden-print label-edit" id="planner-options-edit" type="submit" onclick="showForm();">Trajet änneren</button>
+          </div>
+        </div>
+      </div>
+      <!-- plannerpanel planner-options (form) -->
+    </div>
+    <div class="container planner-advice-container" id="planner-advice-container" aria-hidden="false" style="display: block;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 hidden-print">
+          <div class="btn-group-vertical" id="planner-advice-list" data-toggle="buttons"><button type="button" class="btn btn-primary" id="planner-advice-earlier" data-loading-text="Lued..." onclick="earlierAdvice()">Méi Frei</button><div class="planner-advice-dateheader">Méindeg 13 Mäerz</div><button type="button" class="btn btn-default planner-advice-itinbutton" onclick="renderItinerary(2,true)"><b>08:25</b>  <span class="glyphicon glyphicon-arrow-right"></span> <b>08:39</b><div>Direkt</div></button><button type="button" class="btn btn-default planner-advice-itinbutton" onclick="renderItinerary(1,true)"><b>08:21</b>  <span class="glyphicon glyphicon-arrow-right"></span> <b>08:39</b><div>1 mol ëmsteigen</div></button><button type="button" class="btn btn-default planner-advice-itinbutton active" onclick="renderItinerary(0,true)"><b>08:39</b>  <span class="glyphicon glyphicon-arrow-right"></span> <b>08:49</b><div>Direkt</div></button><button type="button" class="btn btn-default planner-advice-itinbutton" onclick="renderItinerary(3,true)"><b>08:55</b>  <span class="glyphicon glyphicon-arrow-right"></span> <b>09:02</b><div>Direkt</div></button><button type="button" class="btn btn-primary" id="planner-advice-later" data-loading-text="Lued..." onclick="laterAdvice()">Méi Spéit</button></div>
+        </div>
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <ul class="list-group" id="planner-leg-list"><li class="list-group-item advice-leg"><div></div><div class="list-group-item-heading"><h4  class="leg-header"><b>Trëppelen</b></h4> </div><div><b>08:39<span class="ontime"> ✓</span></b> NONE</div><div><b>08:40<span class="ontime"> ✓</span></b> Esch/Alzette, Auberge de Jeunesse</div></li><li class="list-group-item advice-leg"><div></div><div class="list-group-item-heading"><h4 class="leg-header"><b>3</b> Rodange, Schwemm<span class="leg-header-agency-name"><small>TICE</small></span></h4></div><div><b>08:40<span class="ontime"> ✓</span></b> Esch/Alzette, Auberge de Jeunesse</div><div><b>08:47<span class="ontime"> ✓</span></b> Belval-Université, Gare</div></li><li class="list-group-item advice-leg"><div></div><div class="list-group-item-heading"><h4 class="leg-header"><b>Trëppelen</b></h4><button id="myBtn" type="button" style="background-color:orange">Nearby?</button></div><div><b>08:47<span class="ontime"> ✓</span></b> Belval-Université, Gare</div><div><b>08:49<span class="ontime"> ✓</span></b> NONE</div></li></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./end3_files/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./end3_files/jquery-ui-1.10.4.custom.min.js.download"></script>
+    <script type="text/javascript" src="./end3_files/jquery-scrollto.js.download"></script>
+    <script type="text/javascript" src="./end3_files/bootstrap.min.js.download"></script>
+    <script type="text/javascript" src="./end3_files/lu.js.download"></script>
+    <script type="text/javascript" src="./end3_files/config.js.download"></script>
+    <script type="text/javascript" src="./end3_files/Form.js.download"></script><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 296px; left: 709px; z-index: 1; display: none;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev" data-vivaldi-spatnav-clickable="1"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next" data-vivaldi-spatnav-clickable="1"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">Mäerz</span>&nbsp;<span class="ui-datepicker-year">2017</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th class="ui-datepicker-week-end"><span title="Sonndeg">So</span></th><th><span title="Méindeg">Mé</span></th><th><span title="Dënschdeg">Dë</span></th><th><span title="Mëttwoch">Më</span></th><th><span title="Donneschdeg">Do</span></th><th><span title="Freideg">Fr</span></th><th class="ui-datepicker-week-end"><span title="Samschdeg">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">3</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">4</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">9</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">10</a></td><td class=" ui-datepicker-week-end ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default ui-state-highlight ui-state-active" href="https://planner.tfl.lu/#">11</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">16</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">17</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">18</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">23</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">24</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">25</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">27</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">28</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">30</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="2" data-year="2017" data-vivaldi-spatnav-clickable="1"><a class="ui-state-default" href="https://planner.tfl.lu/#">31</a></td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+       <style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+    <span class="close">X</span>
+<table>
+  <tr>
+    <th>Name (category)</th>
+    <th>Address</th>
+    <th>website</th>
+    <th>stops</th>
+  </tr>
+  <tr>
+    <td>Fischer (food)</td>
+    <td>7 Avenue du Rock'n'Roll, 4361 Esch-sur-Alzette</td>
+    <td>rockhalcafe.lu</td>
+    <td>,220401001,;</td>
+  </tr>
+  <tr>
+    <td>Urban (food)</td>
+    <td>5 Avenue du Rock'n'Roll, 4361 Esch-sur-Alzette</td>
+    <td>urban.lu</td>
+    <td>,220401001,;</td>
+  </tr>
+  <tr>
+    <td>Buffalo Grill (food)</td>
+    <td>Belval Plaza II, 4361 Esch-sur-Alzette</td>
+    <td>buffalo-grill.fr</td>
+    <td>,220401001,;</td>
+  </tr>
+  <tr>
+  <td>Utopolis (cinema)</td>
+    <td>7 Avenue du Rock'n'Roll, 4361 Esch-sur-Alzette</td>
+    <td>utopolis.lu</td>
+    <td>,220401001,;</td>
+  </tr>
+</table>
+
+
+   <iframe width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+   
+      
+      </iframe><br><small>
+     
+  </div>
+
+</div>
+
+	<!-- Scripts -->
+      <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" data-vivaldi-spatnav-clickable="1" style="display: none; top: 149px; left: 709px; width: 592px;"><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-110" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gaass, Eschweiler/Wiltz</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-111" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gare, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-112" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Av. de la Gare, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-113" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Lycée des Garçons, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-114" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Grand-rue, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-115" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Rue Guillaume Capus, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-116" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gare (bd. Kenn), Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-117" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-118" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-119" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li></ul><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-2" tabindex="0" data-vivaldi-spatnav-clickable="1" style="display: none;"></ul><ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-3" tabindex="0" data-vivaldi-spatnav-clickable="1" style="display: none; top: 198px; left: 709px; width: 592px;"><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-50" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Av. du Rock'n'Roll, Esch/Alzette</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-51" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-52" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-53" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-54" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-55" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-56" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-57" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-58" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li><li class="ui-menu-item-with-icon ui-menu-item" role="presentation"><a id="ui-id-59" class="ui-corner-all" tabindex="-1"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;</a></li></ul></body><style type="text/css" id="stylebot-css">html.js.geolocation.postmessage.history.localstorage.sessionstorage.applicationcache body {background-color: #171B41 !important;}div.plannerpanel.planner-options.planner-form {background-color: #171B41 !important;}html.js.geolocation.postmessage.history.localstorage.sessionstorage.applicationcache {background-color: #171B41 !important;}div.col-xs-6.col-sm-6.col-md-6.col-lg-6 {background-color: #171B41 !important;}div.col-xs-12.col-sm-6.col-md-6.col-lg-6 {background-color: #171B41 !important;}div.col-xs-12.col-sm-9.col-md-9.col-lg-9 {background-color: #171B41 !important;color: #ffffff !important;}div.planner-advice-dateheader {color: #ffffff !important;}div.container {background-color: #171B41 !important;}div.row {background-color: #171B41 !important;}div.plannerpanel.planner-options.planner-summary {background-color: #171B41 !important;}div.col-xs-6.col-sm-3.col-md-3.col-lg-3 {background-color: #171B41 !important;}</style></html>
